@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>WinBrow - Starter</title>
+    <style>
+      body { font-family: Arial, sans-serif; margin: 20px; }
+      label { display:block; margin-top:8px; }
+      button { margin-top:12px; }
+    </style>
+  </head>
+  <body>
+    <h1>WinBrow (starter)</h1>
+    <div>
+      <label>Profile ID: <input id="profileId" value="local-1" /></label>
+      <label>Profile Path: <input id="profilePath" value="./data/profile-local-1" /></label>
+      <label>Proxy (optional, host:port): <input id="proxy" placeholder="host:port" /></label>
+      <button id="launch">Launch</button>
+    </div>
+    <pre id="out"></pre>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
